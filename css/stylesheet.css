@@ -1,0 +1,103 @@
+*{
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(100, 100, 100);
+}
+h1{
+    font-size: 300%;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    padding-top: 10vh;
+}
+h3{
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-tab{
+    background-color: rgb(50, 50, 50);
+    padding: auto, 25%, auto, 25%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 65px;
+}
+.nav-button-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    height: 100%;
+}
+.placeholder{
+    height: 65px;
+}
+.subtopics{
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    transform: translate(0,65px);
+}
+.drawer{
+    font-family: sans-serif;
+    color: white;
+    font-size: 150%;
+}
+
+.manga-img{
+    width: 100%;
+    height: auto;
+}
+
+.manga-list{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+.manga-list-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10% 0% 10%;
+}
+
+#main-topic{
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+#about{
+    padding: 0% 10% 0% 10%;
+}
+
+#art-style{
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+}
+
+#comparison{
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+}
