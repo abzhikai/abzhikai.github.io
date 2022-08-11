@@ -31,6 +31,8 @@ navbutton.addEventListener('click', function(e)
     }
 });
 
+var mangabutton = document.querySelector('.nav-button-container');
+
 // var opm = document.querySelector('')
 
 // menu.addEventListener('click', function(e)
