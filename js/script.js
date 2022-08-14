@@ -3,14 +3,22 @@ var showsubtopics = document.querySelector('.subtopics');
 
 navbutton.addEventListener('click', function()
 {
-    if(showsubtopics.style.display == "none") 
+    if(window.matchMedia("(min-width: 1080px)").matches)
     {
-        showsubtopics.style.display = "flex";
+
     }
-    else 
+    else
     {
-        showsubtopics.style.display = "none";
+        if(showsubtopics.style.display == "none") 
+        {
+            showsubtopics.style.display = "flex";
+        }
+        else 
+        {
+            showsubtopics.style.display = "none";
+        }
     }
+    
 });
 
 var opmmangabutton = document.querySelector('#opm');

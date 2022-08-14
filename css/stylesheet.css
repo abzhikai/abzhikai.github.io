@@ -74,24 +74,9 @@ a{
     padding: 0% 10% 0% 10%;
 }
 
-.manga-list-item-1
-{
-    display: none;
-}
-
 .manga-img-size
 {
     width: 80%;
-}
-
-.manga-list-item-2
-{
-    display: none;
-}
-
-.manga-list-item-3
-{
-    display: none;
 }
 
 #main-topic{
@@ -122,7 +107,7 @@ a{
 
 
 
-@media screen and (max-width: 1440px)
+@media screen and (max-width: 1080px)
 {
     h1{
         font-size: 200%;
@@ -154,10 +139,31 @@ a{
         position: absolute;
         background-color: rgb(50, 50, 50);
         width: 100%;
+        height: auto;
         display: none;
         flex-direction: column;
-        flex-wrap: wrap;
         text-align: center;
         transform: translate(0,65px);
+    }
+
+    .drawer{
+        font-family: sans-serif;
+        color: white;
+        font-size: 150%;
+    }
+
+    .manga-list-item-1
+    {
+        display: none;
+    }
+
+    .manga-list-item-2
+    {
+        display: none;
+    }
+
+    .manga-list-item-3
+    {
+        display: none;
     }
 }
