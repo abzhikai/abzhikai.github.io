@@ -74,6 +74,21 @@ a{
     padding: 0% 10% 0% 10%;
 }
 
+.manga-list-item-1
+{
+    display: none;
+}
+
+.manga-list-item-2
+{
+    display: none;
+}
+
+.manga-list-item-3
+{
+    display: none;
+}
+
 .manga-img-size
 {
     width: 80%;
@@ -150,20 +165,5 @@ a{
         font-family: sans-serif;
         color: white;
         font-size: 150%;
-    }
-
-    .manga-list-item-1
-    {
-        display: none;
-    }
-
-    .manga-list-item-2
-    {
-        display: none;
-    }
-
-    .manga-list-item-3
-    {
-        display: none;
     }
 }
