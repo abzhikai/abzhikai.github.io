@@ -1,24 +1,25 @@
 var navbutton = document.querySelector('.nav-button-container');
 var showsubtopics = document.querySelector('.subtopics');
 
+const checkWindowSize = '(min-width: 1080px)'; //Set specific size we want to check
+const currWindowSize = window.matchMedia(checkWindowSize); //Compare current window size with the check
+
+currWindowSize.addEventListener('change', event => { //Check when screen size changes
+    if(event.matches) //if they match
+        showsubtopics.style.display = "flex";
+    else //if they do not match
+        showsubtopics.style.display = "none";
+})
 navbutton.addEventListener('click', function()
 {
-    if(window.matchMedia("(min-width: 1080px)").matches)
+    if(showsubtopics.style.display != "flex") 
     {
-
+        showsubtopics.style.display = "flex";
     }
-    else
+    else 
     {
-        if(showsubtopics.style.display == "none") 
-        {
-            showsubtopics.style.display = "flex";
-        }
-        else 
-        {
-            showsubtopics.style.display = "none";
-        }
+        showsubtopics.style.display = "none";
     }
-    
 });
 
 var opmmangabutton = document.querySelector('#opm');
